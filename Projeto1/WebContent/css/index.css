@@ -1,0 +1,140 @@
+body {
+	background-image: url("image.png");
+}
+
+div {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+
+}
+
+.note {
+    background-color: #FEFFAB;
+    border-top: 6px solid #E6E800;
+    width: 282px;
+    height: 250px;
+    float: left;
+    margin: 5px;
+}
+
+p {
+	width:260px;
+}
+
+.cria {
+  border-radius: 4px;
+  background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif; 
+  padding: 12px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.remover {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif; 
+  padding: 12px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.att {
+  border-radius: 4px;
+  background-color: #33B8FF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif; 
+  padding: 12px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.labelg { 
+	color: #4CAF50; 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 24px; 
+	font-weight: 300; 
+	line-height: 32px; 
+	margin: 0 0 14px; 
+}
+
+.labelb { 
+	color: #33B8FF; 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 24px; 
+	font-weight: 300; 
+	line-height: 32px; 
+	margin: 0 0 14px; 
+}
+
+.labelr { 
+	color: #f4511e; 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 24px; 
+	font-weight: 300; 
+	line-height: 32px; 
+	margin: 0 0 14px; 
+}
+
+
+th {
+    text-align: center;
+    vertical-align: text-top;
+    margin: auto;
+}
+
+th:nth-child(1) {
+    background-color: #BDFEBC;
+}
+
+th:nth-child(2) {
+    background-color: #FFE7E7;
+}
+
+th:nth-child(3) {
+    background-color: #D5EDFF;
+}
+
+
+input[type=text], select {
+    width: 200px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.texto {
+    width: 200px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif; 
+    min-height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 200px;
+    font-family:"Helvetica Neue", Helvetica, sans-serif; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}}
