@@ -1,2 +1,2 @@
 web: java $JAVA_OPTS -cp target/classes:target/dependency/* HelloWorld 
-ps:scale web=1
+heroku ps:scale web=1
